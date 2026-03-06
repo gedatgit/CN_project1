@@ -21,26 +21,37 @@ export default function Networking_concepts() {
   // Static networking data -
   const networkingData = {
     dns: {
-      nslookup: `Server:         8.8.8.8
-Address:        8.8.8.8#53
+      nslookup: `Server:  UnKnown
+Address:  fe80::88e:dcff:fe04:d364
 
 Non-authoritative answer:
-Name:    https://github.com/gedatgit
-Address: 185.199.108.153
-Address: 185.199.109.153
-Address: 185.199.110.153
-Address: 185.199.111.153`
+Name:    http://gedatgit.github.io
+Addresses:  2606:50c0:8000::153
+          2606:50c0:8001::153
+          2606:50c0:8002::153
+          2606:50c0:8003::153
+          185.199.108.153
+          185.199.109.153
+          185.199.111.153
+          185.199.110.153`
     },
     http: {
-      headers: `HTTP/2 200
-server: GitHub.com
-content-type: text/html; charset=utf-8
-strict-transport-security: max-age=31556952
-x-content-type-options: nosniff
-x-frame-options: deny
-x-xss-protection: 1; mode=block
-vary: Accept-Encoding
-cache-control: max-age=600`
+      headers: `HTTP/1.1 404 Not Found
+Content-Length: 9115
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+ETag: "69a1b34f-239b"
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+X-GitHub-Request-Id: EA20:1BD8:C61C9:E50FF:69AA53D8
+Accept-Ranges: bytes
+Age: 0
+Date: Fri, 06 Mar 2026 04:11:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-kpdk2140068-PDK
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1772770265.851666,VS0,VE29
+X-Fastly-Request-ID: 0a4c80da005d4a6282c6fe57bdf1cfae8a233b56`
     }
   };
 
@@ -377,7 +388,7 @@ cache-control: max-age=600`
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Valid for</p>
-                    <p className="text-white font-mono text-sm">yourusername.github.io</p>
+                    <p className="text-white font-mono text-sm">https://gedatgit.github.io/CN_project1/</p>
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Expiration</p>

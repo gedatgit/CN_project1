@@ -142,7 +142,7 @@ export default function About_me() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <a
-              href="https://github.com/yourusername/yourusername.github.io"
+              href="https://github.com/gedatgit/CN_project1"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 p-4 bg-slate-950/50 border border-slate-700 rounded-lg hover:border-blue-500/50 transition-all duration-300 group"
@@ -156,7 +156,7 @@ export default function About_me() {
             </a>
 
             <a
-              href="https://yourusername.github.io"
+              href="https://gedatgit.github.io/CN_project1/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 p-4 bg-slate-950/50 border border-slate-700 rounded-lg hover:border-cyan-500/50 transition-all duration-300 group"
@@ -181,7 +181,7 @@ export default function About_me() {
                 Email
               </a>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="www.linkedin.com/in/gedeon-fikru-4b2914209"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-slate-950/50 border border-slate-700 rounded-lg hover:border-blue-500/50 transition-all text-gray-300 hover:text-white"
@@ -190,7 +190,7 @@ export default function About_me() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/yourusername"
+                href=" https://github.com/gedatgit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-slate-950/50 border border-slate-700 rounded-lg hover:border-blue-500/50 transition-all text-gray-300 hover:text-white"

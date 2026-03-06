@@ -20,7 +20,7 @@ export default function Navbar() {
                     <div className="flex items-center space-x-2 group cursor-pointer" onClick={() => scrollToSection('hero')}>
                         <div>
                             <img
-                                src="/lightbulb.png"
+                                // src="/lightbulb.png"
                                 alt="DevPro"
                                 className="w-6 h-6 sm:w-12 sm:h-8"
                             />
