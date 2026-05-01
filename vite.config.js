@@ -13,4 +13,16 @@ export default defineConfig({
     }),
     tailwindcss()
   ],
+  build: {
+    minify: 'esbuild',
+    cssMinify: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor':['react','react-dom'],
+          'syntax-highlighter':['react-syntax-highlighter']
+        }
+      }
+    }
+  }
 })
