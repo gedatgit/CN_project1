@@ -51,6 +51,12 @@ export default function Navbar() {
                         >
                             About Me
                         </button>
+                        <button
+                            onClick={() => scrollToSection('contact')}
+                            className="hover:text-white text-shadow-2xs transition-colors cursor-pointer"
+                        >
+                            Contact
+                        </button>
                         <a
                             href="https://github.com/yourusername/yourusername.github.io"
                             target="_blank"
@@ -94,6 +100,13 @@ export default function Navbar() {
                         >
                             About Me
                         </button>
+                        <button
+                            onClick={() => scrollToSection('contact')}
+                            className="block w-full text-left hover:text-white text-shadow-2xs transition-colors"
+                        >
+                            Contact
+                        </button>
+
                         <a
                             href="https://github.com/yourusername/yourusername.github.io"
                             target="_blank"
