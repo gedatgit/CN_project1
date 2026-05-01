@@ -1,0 +1,1 @@
+import{a as o,j as r}from"./index-78tSVNPA.js";import"./syntax-highlighter-CHkyQrwr.js";import"./react-vendor-xoS3HakM.js";function n(){const e=o.c(1);let t;return e[0]===Symbol.for("react.memo_cache_sentinel")?(t=r.jsx("div",{}),e[0]=t):t=e[0],t}export{n as default};
